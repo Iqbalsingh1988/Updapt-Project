@@ -1,0 +1,980 @@
+/* === Trusted Partner Banner CSS Start === */
+.trusted_partner_banner {
+    width: 100%;
+    background: #FCFCFD;
+    overflow: hidden;
+}
+
+.trusted_partner_banner_cnt {
+    width: 100%;
+    max-width: min(max(25rem, 41.97917vw), 50.375rem);
+}
+
+.trusted_partner_banner_row {
+    z-index: 2;
+    position: relative;
+}
+
+.trusted_partner_banner_cnt .fs-56 {
+    line-height: 1.2;
+    letter-spacing: -2.24px;
+}
+
+.trusted_partner_banner_cnt .fs-56 span {
+    letter-spacing: -1.12px;
+}
+
+.trusted_partner_banner_quote {
+    width: 100%;
+
+    margin: 0 auto;
+    line-height: 1.4;
+    letter-spacing: -2.4px;
+}
+
+.trusted_partner_banner_row .trusted_partner_banner_quote .fs-48 {
+    letter-spacing: -2.4px;
+    line-height: 1.4;
+}
+
+.trusted_right_col {
+    width: 100%;
+    max-width: min(max(18.75rem, 37.08333vw), 44.5rem);
+    margin: auto;
+    padding: min(max(3.75rem, 5.72917vw), 6.875rem) min(max(1.25rem, 2.08333vw), 2.5rem);
+}
+
+.left_dot_line {
+    position: absolute;
+    top: 0;
+    width: min(max(9.375rem, 12.29167vw), 14.75rem);
+    left: 0;
+}
+
+.left_dot_line img {
+    width: 100%;
+}
+
+.right_dot_line {
+    position: absolute;
+    top: 0;
+    width: min(max(9.375rem, 12.29167vw), 14.75rem);
+    right: 0;
+}
+
+.right_dot_line img {
+    width: 100%;
+}
+
+.banner_quotes {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    width: min(max(9.375rem, 12.55208vw), 15.0625rem);
+    transform: translate(-50%, -10%);
+    -webkit-transform: translate(-50%, -10%);
+    -moz-transform: translate(-50%, -10%);
+    -ms-transform: translate(-50%, -10%);
+    -o-transform: translate(-50%, -10%);
+}
+
+.banner_quotes svg,
+.banner_quotes img {
+    width: 100%;
+    }
+
+.partner_straight_line {
+    background: rgba(0, 0, 0, 0.11);
+    width: min(max(2.8125rem, 4.6875vw), 5.625rem);
+    height: 1px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.partner_straight_line.left {
+    right: 0;
+}
+
+.partner_straight_line.right {
+    left: 0;
+}
+
+.trusted_right_col .cnt_wrap {
+    margin-top: min(max(1.25rem, 1.04167vw), 1.25rem);
+}
+
+.trusted_right_col .cnt_wrap p {
+    width: min(max(9.375rem, 15.10417vw), 18.125rem);
+}
+
+.patner_bg_img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+    width: min(max(37.5rem, 55.52083vw), 66.625rem);
+}
+
+.patner_bg_img img {
+    width: 100%;
+}
+
+.patner_left_circle {
+    border-radius: 100%;
+    opacity: 0.05;
+    background: var(--theme-green);
+    z-index: 0;
+    position: absolute;
+    bottom: -50%;
+    top: 25%;
+    left: -10.41667vw;
+    width: min(max(25rem, 41.66667vw), 50rem);
+    height: min(max(25rem, 41.66667vw), 50rem);
+    filter: blur(3.75vw);
+    -webkit-filter: blur(3.75vw);
+}
+
+.patner_right_circle {
+    opacity: 0.02;
+    background: var(--theme-purple);
+    z-index: 0;
+    position: absolute;
+    top: -50%;
+    right: -8.59375vw;
+    width: min(max(25rem, 51.19792vw), 61.4375rem);
+    height: min(max(25rem, 51.19792vw), 61.4375rem);
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    filter: blur(3.75vw);
+    -webkit-filter: blur(3.75vw);
+}
+
+@media only screen and (max-width: 1199px) {
+    .trusted_partner_banner {
+        padding-top: 40px;
+    }
+.trusted_right_col {
+    max-width: 90%;
+}
+.banner_quotes {
+    top: 0;
+}
+.trusted_right_col .cnt_wrap p {
+    width: 100%;
+}
+}
+@media only screen and (max-width: 991px) {
+    .trusted_right_col {
+        max-width: 100%;
+        padding-top: 40px;
+    }
+    .trusted_partner_banner_quote {
+        line-height: 1;
+    }
+    .banner_quotes {
+        top: -5%;
+        width: 130px;
+    }
+.patner_bg_img {
+    width: 100%;
+}
+.partner_straight_line {
+    display: none;
+}
+}
+@media only screen and (max-width: 767px) {
+    .trusted_right_col {
+        padding-top: 60px;
+        margin-top: 25px;
+    }
+        .patner_bg_img {
+        width: 100%;
+        height: max-content;
+        top: inherit;
+    }
+    .patner_left_circle {
+        width: 100%;
+        height: 70%;
+        left: 0;
+        bottom: -25%;
+        top: inherit;
+    }
+    .patner_right_circle {
+    top: 0;
+    bottom: inherit;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+}
+/* === Trusted Partner Banner CSS End === */
+
+
+/* === Benefits of Partnering CSS Start === */
+.benefits_partnering_section {
+    width: 100%;
+}
+
+.benefits_partnering_section .custom-container {
+    z-index: 1;
+    position: relative;
+}
+
+.benefits_partnering_slider .swiper-wrapper {
+    align-items: stretch !important;
+    height: 100%;
+}
+
+.benefits_partnering_slider .swiper-slide {
+    height: auto;
+}
+
+.benefits_partnering_col {
+    padding: min(max(2rem, 1.66667vw), 2rem);
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    transition: all 0.6s;
+    height: 100%;
+    border-radius: 1.25vw;
+    -webkit-border-radius: 1.25vw;
+    -moz-border-radius: 1.25vw;
+    -ms-border-radius: 1.25vw;
+    -o-border-radius: 1.25vw;
+}
+
+/* Hover */
+.benefits_partnering_col:hover {
+    background: var(--theme-purple);
+    color: var(--theme-white);
+    transition: all 0.6s;
+}
+
+.benefits_partnering_col:hover .cnt_wrap {
+    color: var(--theme-white);
+    transition: all 0.6s;
+}
+
+.benefits_partnering_col .cnt_wrap > * {
+    line-height: 1.3;
+    letter-spacing: 0.36px;
+}
+
+
+/* Icon */
+.benefits_partnering_img {
+    width: min(max(2.5rem, 3.95833vw), 4.75rem);
+    height: min(max(2.5rem, 3.95833vw), 4.75rem);
+    border: 0.826px solid rgba(0, 0, 0, 0.06);
+    background: var(--theme-white);
+    padding: min(max(0.9375rem, 0.78125vw), 1.25rem);
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+
+.benefits_partnering_img img {
+    width: 100%;
+}
+
+/* Background image */
+.benefits_partnering_bg_img {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    right: 0;
+    top: 0;
+    width: min(max(37.5rem, 83.33333vw), 100rem);
+    z-index: 0;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+.benefits_partnering_bg_img img {
+    width: 100%;
+    height: 100%
+}
+
+
+@media only screen and (max-width: 1199px) {
+    .benefits_partnering_section {
+        overflow: hidden;
+    }
+    .benefits_partnering_img {
+        width: 50px;
+        height: 50px;
+        padding: 10px;
+    }
+    .benefits_partnering_slider {
+        padding-bottom: 35px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .benefits_partnering_section {
+        padding: 40px 0px;
+    }
+    .benefits_partnering_row  {
+        padding-top: 25px;
+    }
+    .benefits_partnering_img {
+        width: 60px;
+        height: 60px;
+        padding: 12px;
+    }
+    .benefits_partnering_bg_img {
+        width: 100%;
+    }
+    .benefits_partnering_bg_img img {
+        object-fit: cover;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .benefits_partnering_section {
+        padding: 30px 0px;
+    }
+    .benefits_partnering_col {
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+}
+}
+/* === Benefits of Partnering CSS End === */
+
+
+/* === Technology Partner CSS Start === */
+.technology_partner_section {
+    width: 100%;
+}
+
+.technology_partner_section::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.70);
+}
+
+.technology_partner_section .bg_img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.technology_partner_section .custom-container {
+    z-index: 1;
+    position: relative;
+}
+
+/* Tabbing */
+.technology_partner_tabbing ul,
+.technology_partner_cnt_points ul {
+    padding: 0;
+    margin: 0;
+}
+
+.technology_partner_tabbing ul li {
+    list-style-type: none;
+    padding: min(max(1.25rem, 1.25vw), 1.5rem) min(max(1.5625rem, 2.91667vw), 3.5rem);
+    color: var(--theme-white);
+    background: #4A4A4A;
+}
+
+.technology_partner_tabbing ul li:first-child {
+    border-top-left-radius: 2.60417vw;
+    border-bottom-left-radius: 2.60417vw;
+}
+
+.technology_partner_tabbing ul li:last-child {
+    border-top-right-radius: 2.60417vw;
+    border-bottom-right-radius: 2.60417vw;
+}
+
+.technology_partner_tabbing ul li.active {
+    background: var(--theme-green);
+    border-bottom: 1px solid #FFF;
+}
+
+/* Tabbing inner */
+.technology_partner_cnt_tag {
+    width: fit-content;
+    padding: 0.41667vw 0.83333vw;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    border-radius: 2.34375vw;
+    -webkit-border-radius: 2.34375vw;
+    -moz-border-radius: 2.34375vw;
+    -ms-border-radius: 2.34375vw;
+    -o-border-radius: 2.34375vw;
+}
+
+.technology_partner_inr .fs-72 {
+    line-height: 1.2;
+    letter-spacing: -4.32px;
+}
+
+.technology_partner_cnt .cnt_wrap>* {
+    line-height: 1.4;
+}
+
+.technology_partner_cnt_points ul {
+    flex-wrap: wrap;
+    gap: min(max(1.25rem, 1.25vw), 1.5rem);
+    margin-top: min(max(1.25rem, 1.25vw), 1.5rem);
+}
+
+.technology_partner_cnt_points ul li {
+    list-style-type: none;
+    width: 100%;
+    max-width: min(max(9.375rem, 14.53125vw), 17.4375rem);
+    gap: min(max(0.625rem, 0.52083vw), 0.625rem);
+}
+
+.technology_partner_cnt {
+    width: 100%;
+    max-width: min(max(25rem, 42.60417vw), 51.125rem);
+    margin: 0 auto;
+}
+
+.technology_partner_tab {
+    cursor: pointer;
+}
+
+.technology_patners_details {
+    display: none;
+}
+
+.technology_patners_details.tab-active {
+    display: block;
+}
+
+/* Form */
+.technology_partner_form_inr {
+    width: 100%;
+    max-width: min(max(18.75rem, 31.92708vw), 38.3125rem);
+    max-width: 88%;
+    padding: min(max(1rem, 0.83333vw), 1rem);
+    border-radius: 0.625vw;
+    -webkit-border-radius: 0.625vw;
+    -moz-border-radius: 0.625vw;
+    -ms-border-radius: 0.625vw;
+    -o-border-radius: 0.625vw;
+}
+
+.technology_partner_form_inr .form {
+    margin-top: min(max(1.25rem, 1.25vw), 1.5rem);
+}
+
+.technology_partner_form_inr .form_row {
+    display: flex;
+    gap: min(max(0.75rem, 0.625vw), 0.75rem);
+    margin-bottom: min(max(0.8125rem, 0.67708vw), 0.8125rem);
+}
+
+.technology_partner_form_inr .form_group {
+    flex: 1;
+}
+
+.technology_partner_form .form_group {
+    width: 100%;
+
+}
+
+.technology_partner_form .form_group input,
+.technology_partner_form .form_group select,
+.technology_partner_form .form_group textarea {
+    width: 100%;
+    outline: none;
+    background: transparent;
+    border: none;
+    color: #707070;
+    font-size: min(max(1rem, 0.83333vw), 1.125rem);
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 0.36px;
+    padding: min(max(0.9375rem, 0.78125vw), 0.9375rem) min(max(1.25rem, 1.04167vw), 1.25rem);
+    box-sizing: border-box;
+    border: 1px solid #CCC;
+    background: var(--theme-body-bg);
+    border-radius: 0.52083vw;
+    -webkit-border-radius: 0.52083vw;
+    -moz-border-radius: 0.52083vw;
+    -ms-border-radius: 0.52083vw;
+    -o-border-radius: 0.52083vw;
+}
+
+.technology_partner_form .form_group select {
+    appearance: none;
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="9" viewBox="0 0 16 9" fill="none"><path opacity="0.4" d="M7.56254 8.25004C7.38671 8.25004 7.21071 8.18284 7.07648 8.04861L0.20148 1.17361C-0.0671601 0.904965 -0.0671601 0.469949 0.20148 0.20148C0.470121 -0.0669883 0.905136 -0.0671601 1.17361 0.20148L7.56254 6.59042L13.9515 0.20148C14.2201 -0.0671601 14.6551 -0.0671601 14.9236 0.20148C15.1921 0.470121 15.1922 0.905136 14.9236 1.17361L8.04861 8.04861C7.91437 8.18284 7.73837 8.25004 7.56254 8.25004Z" fill="black"/></svg>');
+    background-position: 95%;
+    background-repeat: no-repeat;
+}
+
+.custom_placeholder {
+    position: relative;
+}
+
+.custom_placeholder input {
+    position: relative;
+    z-index: 2;
+    background: transparent;
+}
+
+.custom_placeholder .placeholder {
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #707070;
+    pointer-events: none;
+}
+
+.technology_partner_form .form_group textarea {
+    height: min(max(6.25rem, 8.07292vw), 9.6875rem);
+    resize: none;
+}
+
+.technology_partner_form .phone_wrapper {
+    display: flex;
+    align-items: center;
+    gap: min(max(0.625rem, 0.52083vw), 0.625rem);
+}
+
+.technology_partner_form_btn .primary_btn {
+    width: 100%;
+}
+
+/* Parent */
+.technology_partner_form .form_row .phone_wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border: 1px solid #CCC;
+    background: #FAFAFA;
+    height: min(max(2.5rem, 2.91667vw), 3.5rem);
+    position: relative;
+    border-radius: 0.52083vw;
+    -webkit-border-radius: 0.52083vw;
+    -moz-border-radius: 0.52083vw;
+    -ms-border-radius: 0.52083vw;
+    -o-border-radius: 0.52083vw;
+}
+
+
+/* Country select */
+
+.technology_partner_form .form_row .country_select {
+
+    width: min(max(2.5rem, 4.94792vw), 5.9375rem);
+    height: 100%;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+
+}
+
+
+/* Selected */
+
+.technology_partner_form .form_row .selected_option {
+
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+
+}
+
+.technology_partner_form .form_row .selected_option img {
+    width: min(max(1.25rem, 1.25vw), 1.5rem);
+}
+
+
+/* Input */
+.technology_partner_form .form_row .phone_wrapper input {
+
+    flex: 1;
+    height: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 0 min(max(1.25rem, 1.04167vw), 1.25rem);
+    font-size: min(max(1.125rem, 0.9375vw), 1.125rem);
+}
+
+/* Dropdown */
+.technology_partner_form .form_row .dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: max-content;
+    background: #fafafa;
+    overflow: hidden;
+    z-index: 999;
+}
+
+/* Option */
+.technology_partner_form .form_row .option {
+    padding: min(max(0.75rem, 0.625vw), 0.75rem) min(max(0.625rem, 0.78125vw), 0.9375rem);
+    display: flex;
+    align-items: center;
+    gap: min(max(0.625rem, 0.52083vw), 0.625rem);
+    cursor: pointer;
+}
+
+.technology_partner_form .form_row .option:hover {
+
+    background: #f1f1f1;
+
+}
+
+.technology_partner_form .form_row .option img {
+
+    width: min(max(0.75rem, 1.04167vw), 1.25rem);
+
+}
+
+.technology_partner_form .form_group .phone_input input {
+    padding-left: min(max(3.75rem, 5.72917vw), 6.875rem);
+}
+
+.technology_partner_form .form_group .phone_input {
+    position: relative;
+}
+
+.technology_partner_form .form_row .country_select {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    left: min(max(0.75rem, 1.25vw), 1.5rem);
+    width: fit-content;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 0.15625vw;
+
+}
+
+@media (max-width: 1500px) {
+.technology_partner_form_inr {
+    max-width: 100%;
+}
+}
+@media only screen and (max-width: 1199px) {
+.technology_partner_section {
+    padding: 35px 0px;
+}
+.technology_partner_inr {
+    padding-top: 35px;
+}
+.technology_partner_tabbing ul li:first-child {
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.technology_partner_tabbing ul li:last-child {
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.technology_partner_tabbing ul li {
+    padding: 20px 35px;
+}
+.technology_partner_cnt_tag {
+    padding: 7px 15px;
+}
+.technology_partner_cnt_points ul li {
+    max-width: 45%;
+}
+.technology_partner_cnt_points ul {
+    margin-top: 30px;
+}
+.technology_partner_form_btn .primary_btn {
+    padding: 12px;
+}
+.technology_partner_form .form_group input, .technology_partner_form .form_group select, .technology_partner_form .form_group textarea {
+    font-size: 14px;
+}
+.technology_partner_form .form_group .phone_input input {
+    padding-left: 80px;
+}
+}
+
+@media only screen and (max-width: 991px) {
+    .technology_partner_tabbing ul {
+    overflow-x: auto;
+    white-space: nowrap;
+    justify-content: start;
+}
+.technology_partner_cnt {
+    max-width: 100%;
+}
+.technology_partner_form  {
+    margin-top: 30px;
+    max-width: 80%;
+}
+.technology_partner_form_inr {
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    padding: 25px 20px;
+}
+}
+@media only screen and (max-width: 767px) {
+    .technology_partner_tabbing ul li {
+        padding: 15px 28px;
+    }
+    .technology_partner_inr .fs-72 {
+    letter-spacing: -2.32px;
+}
+.technology_partner_cnt .cnt_wrap>* {
+    line-height: 1.5;
+}
+    .technology_partner_cnt_points ul li {
+        max-width: 100%;
+    }
+    .technology_partner_form {
+        margin-top: 35px;
+    }
+    .technology_partner_form_inr .form_row {
+        flex-direction: column;
+    }
+    .technology_partner_form_inr {
+        padding: 20px 16px;
+    }
+ .technology_partner_form .form_group input, .technology_partner_form .form_group select, .technology_partner_form .form_group textarea {
+        font-size: 14px;
+        padding: 15px;
+        height: 50px;
+        border-radius: 8px;
+    }
+.technology_partner_form .form_row .country_select {
+    gap: 6px;
+}
+    .technology_partner_form .form_group .phone_input input {
+        padding-left: 90px;
+    }
+.technology_partner_form  {
+    max-width: 100%;
+}
+}
+/* === Technology Partner CSS End === */
+
+
+/* === How Partnership Work CSS Start === */
+.how_partnership_section {
+    padding-bottom: min(max(3.75rem, 6.77083vw), 8.125rem);
+    overflow: hidden;
+}
+.how_partnership_row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: min(max(0.75rem, 0.78125vw), 0.9375rem);
+}
+
+.how_partnership_col {
+    width: calc((100% - (3 * min(max(0.75rem, 0.78125vw), 0.9375rem))) / 4);
+    flex-direction: column;
+    gap: min(max(1rem, 1.77083vw), 2.125rem);
+}
+
+.how_partnership_col_img {
+    width: min(max(4.375rem, 7.55208vw), 9.0625rem);
+    height: min(max(4.375rem, 7.55208vw), 9.0625rem);
+    background: #E2E5EF;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+
+.how_partnership_col_img img {
+    width: 100%;
+}
+
+.how_partnership_icon {
+    width: 100%;
+    max-width: min(max(1.30208vw, 2.76042vw), 3.3125rem);
+}
+
+.how_partnership_col_top {
+    width: 100%;
+    max-width: min(max(4.375rem, 7.55208vw), 9.0625rem);
+    margin: 0 auto;
+}
+
+.how_partnership_counts {
+    content: "";
+    position: absolute;
+    top: -0.41667vw;
+    left: -0.41667vw;
+    width: min(max(1.30208vw, 2.76042vw), 3.3125rem);
+    height: min(max(1.30208vw, 2.76042vw), 3.3125rem);
+    background: var(--theme-purple);
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+
+
+
+.how_partnership_col:nth-child(even) {
+    flex-direction: column-reverse;
+    gap: min(max(1rem, 1.77083vw), 2.125rem);
+}
+
+/* Background image */
+.how_partnership_bg_img {
+    transform: translateX(-50%);
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    right: 0;
+    width: min(max(37.5rem, 90.10417vw), 108.125rem);
+    z-index: -1;
+}
+
+.how_partnership_bg_img img {
+    width: 100%;
+    height: 100%;
+}
+
+.how_partnership_col_bottom .fs-32 {
+    line-height: 1.2;
+    letter-spacing: -1.28px;
+}
+
+.how_partnership_col_bottom .cnt_wrap>* {
+    line-height: 1.3;
+    letter-spacing: 0.36px;
+}
+
+.partnership_left_circle {
+    opacity: 0.07;
+    background: var(--theme-purple);
+    filter: blur(72px);
+    width: min(max(25rem, 51.97917vw), 62.375rem);
+    height: min(max(25rem, 51.97917vw), 62.375rem);
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    position: absolute;
+    top: -95%;
+    left: -15%;
+    z-index: -1;
+}
+
+.partnership_right_circle {
+    border: 1px solid var(--theme-black);
+    opacity: 0.05;
+    background: var(--theme-green);
+    filter: blur(72px);
+    width: min(max(25rem, 51.97917vw), 62.375rem);
+    height: min(max(25rem, 51.97917vw), 62.375rem);
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    position: absolute;
+    bottom: -80%;
+    right: -35%;
+    z-index: 2;
+}
+@media only screen and (max-width: 1199px) {
+.how_partnership_counts {
+    top: -10%;
+    left: -10%;
+    width: 40px;
+    height: 40px;
+}
+.how_partnership_col_img {
+    width: 90px;
+    height: 90px;
+}
+.how_partnership_icon {
+    width: 100%;
+    max-width: 40px;
+}
+}
+@media only screen and (max-width: 991px) {
+.how_partnership_row {
+    gap: 30px;
+    row-gap: 40px;
+}
+.how_partnership_col {
+    width: calc((100% - 30px) / 2);
+}
+.how_partnership_col:nth-child(even) {
+    flex-direction: column;
+}
+.how_partnership_col_img {
+    width: 100px;
+    height: 100px;
+}
+.how_partnership_icon {
+    max-width: 45px;
+}
+    .how_partnership_counts {
+        width: 45px;
+        height: 45px;
+    }
+.how_partnership_bg_img {
+    width: 100%;
+}
+.how_partnership_col_top {
+    max-width: fit-content;
+}
+
+
+}
+@media only screen and (max-width: 767px) {
+ .how_partnership_col {
+    width: 100%;
+}
+.how_partnership_section {
+    padding: 30px 0px 50px;
+}
+.how_partnership_row {
+    padding-top: 40px;
+}
+    .how_partnership_col_img {
+        width: 125px;
+        height: 125px;
+    }
+        .how_partnership_icon {
+        max-width: 60px;
+    }
+        .how_partnership_counts {
+        width: 50px;
+        height: 50px;
+    }
+}
+/* === How Partnership Work CSS End === */

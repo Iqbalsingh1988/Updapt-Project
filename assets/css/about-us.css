@@ -1,0 +1,113 @@
+.about_us_trusted_section {
+    background: #F3F8FF;
+    padding-top:  min(max(1.875rem, 2.34375vw), 2.8125rem);
+    padding-bottom: min(max(1.875rem, 3.54167vw), 4.25rem);
+}
+.about_us_trusted_section .sub-heading {
+    justify-content: center;
+    align-items: center;
+    gap: min(max(1.125rem, 0.9375vw), 1.125rem);
+}
+.line_sub_heading {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.20) 100%);
+    width: min(max(18.75rem, 28.125vw), 33.75rem);
+    height: 1px;
+}
+.line_sub_heading:last-child {
+    transform: rotate(180deg);
+}
+.about_us_trusted_section .sub-heading .fs-28 {
+    width: min(max(18.75rem, 30.10417vw), 36.125rem);
+}
+
+.about_us_trusted_section .trusted_worldwide__row {
+    padding-top: min(max(1.875rem, 2.29167vw), 2.75rem);
+}
+
+.about_us_trusted_section .trusted_worldwide__col {
+    margin: auto;
+}
+/* Values Shape Section Start */
+.values_shape_section {
+    width: 100%;
+}
+
+.vlaues_shape_inner {
+    margin-top: min(max(1.5625rem, 2.60417vw), 3.125rem);
+}
+.values_shape_section .vlaues_shape_row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: min(max(1.875rem, 2.29167vw), 2.75rem);
+}
+
+.values_shape_section .vlaues_shape_row > .vlaues_shape_col {
+    width: 100%;
+    padding-left: min(max(1.875rem, 2.5vw), 3rem);
+}
+
+.values_shape_section .vlaues_shape_col .fs-72 {
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: -2.88px;
+}
+
+.values_shape_section .vlaues_shape_col .fs-28 {
+    line-height: 1.2;
+    letter-spacing: -1.12px;
+}
+
+.values_shape_section .vlaues_shape_col .cnt_wrap > * {
+    font-weight: 400;
+    line-height: 1.4;
+} 
+
+.value_horizontal_line {
+    background: linear-gradient(90deg, rgba(24, 170, 92, 0.00) 0%, #18AA5C 54.33%, rgba(24, 170, 92, 0.00) 100%);
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    top: 52.5%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    left: 0;
+    right: 0;
+}
+
+.value_vertical_line {
+    background: linear-gradient(
+        180deg,
+        transparent 0%,
+        #18AA5C 50%,
+        transparent 100%
+    );
+    width: 1px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+
+
+.value_vertical_line.left {
+    left: 32%;
+}
+.value_vertical_line.right {
+    right: 34%;
+}
+
+.bg_value_shape {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: -1;
+}
+.bg_value_shape img {
+    width: 100%;
+}
+/* Values Shape Section End */

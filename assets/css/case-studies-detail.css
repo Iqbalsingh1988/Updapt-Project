@@ -1,0 +1,523 @@
+/* Case studies Details Banner Section Start  */
+.case_study_detail_banner{
+   min-height: 47.6042vw;
+}
+
+.backgroun_banner_bg{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    min-height: 100%;
+}
+
+
+.backgroun_banner_bg::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg, #000 0%, #000000d6 24.97%, rgba(0, 0, 0, 0.00) 82.69%), url(<path-to-image>) #d3d3d300 50% / cover no-repeat;
+}
+
+.study_banner_data{
+    position: relative;
+    padding-top: min(max(60px, 7.8125vw), 150px);
+}
+.study_banner_data{
+    width: 100%;
+    max-width: min(max(20.625rem, 44.5833vw), 53.5rem);
+}
+
+.case_study_detail_banner .breadcum_section {
+    top: min(max(0.5rem, 1.8229vw), 2.1875rem);
+    width: fit-content;
+}
+
+.case_study_detail_banner .breadcrum ul li a{
+    color: var(--theme-white);
+}
+
+.case_study_detail_banner .breadcrum ul li:last-child a {
+    color: var(--theme-purple);
+}
+
+.case_study_detail_banner .blog_listing_count_col::before {
+    background: linear-gradient(181deg, rgba(255, 255, 255, 0.00) 0%, #FFF 43.89%, rgba(255, 255, 255, 0.00) 100%);
+}
+
+@media only screen and (max-width: 1199px) {
+.case_study_detail_banner {
+    min-height: 52.6042vw;
+}
+.study_banner_data {
+    padding-top: 100px;
+}
+}
+
+@media only screen and (max-width: 991px) {
+    .case_study_detail_banner {
+    min-height: 62.6042vw;
+}
+.study_banner_data {
+    max-width: 60%;
+}
+.blog_listing_count_col .fs-54 {
+    font-size: 30px;
+}
+}
+
+@media only screen and (max-width: 767px) {
+    .case_study_detail_banner {
+        min-height: 600px;
+    }
+.study_banner_data {
+    max-width: 100%;
+}
+.study_banner_data {
+    padding-top: 120px;
+}
+}
+
+@media only screen and (max-width: 400px) {
+.study_banner_data {
+    padding-top: 100px;
+}
+.case_study_detail_banner .blog_listing_count_col {
+    padding: 0px 10px;
+}
+}
+/* Case studies Details Banner Section End */
+
+
+/* Overview Section Start*/
+.overview_section {
+    z-index: 1;
+    width: 100%;
+}
+.overvide_data {
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    box-shadow: 2px 2px 60px 0 rgba(0, 0, 0, 0.06);
+    padding: min(max(1rem, 1.66667vw), 2rem) 56px;
+    border-radius: 1.04167vw;
+    -webkit-border-radius: 1.04167vw;
+    -moz-border-radius: 1.04167vw;
+    -ms-border-radius: 1.04167vw;
+    -o-border-radius: 1.04167vw;
+    margin-top: -6.92708vw;
+    position: relative;
+}
+
+.overview_tag {
+    padding: min(max(0.625rem, 0.72917vw), 0.875rem) min(max(1.5625rem, 2.91667vw), 3.5rem);
+    border: 2px solid var(--theme-white);
+    background: var(--theme-green);
+    width: fit-content;
+    margin: auto;
+    position: absolute;
+    top: -1.5625vw;
+    left: 50%;
+    border-radius: 4.16667vw;
+    transform: translateX(-50%);
+    -webkit-border-radius: 4.16667vw;
+    -moz-border-radius: 4.16667vw;
+    -ms-border-radius: 4.16667vw;
+    -o-border-radius: 4.16667vw;
+}
+
+.overvide_data .cnt_wrap > * {
+    line-height: 1.2;
+}
+
+.overvide_data ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.overvide_data ul li {
+    list-style: none;
+    padding: 0px min(max(1rem, 1.66667vw), 2rem);
+    position: relative;
+}
+.overvide_data ul li:first-child {
+    padding-left: 0px;
+}
+.overvide_data ul li:last-child {
+    padding-right: 0px;
+}
+.overvide_data ul li::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.20);
+}
+.overvide_data ul li:last-child::before {
+    display: none;
+}
+.overvide_data ul li div:last-child {
+    padding-top: 0.26042vw;
+}
+.overview_line{
+    width: 100%;
+    height: 1px;
+    margin: min(max(1rem, 1.66667vw), 2rem) 0px;
+    background: rgba(0, 0, 0, 0.10);
+}
+@media only screen and (max-width: 1199px) {
+.overvide_data {
+    padding: 25px;
+}
+.overview_tag {
+    top: -25px;
+}
+.overview_line {
+    margin: 20px 0px;
+}
+.overvide_data ul li {
+    padding: 10px;
+}
+}
+@media only screen and (max-width: 991px) {
+.overvide_data {
+    margin-top: -65px;
+    padding: 35px 22px;
+}
+.overvide_data .cnt_wrap > * {
+    text-align: center;
+}
+.overvide_data ul {
+    flex-direction: column;
+}
+.overvide_data ul li::before{
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    right: inherit;
+}
+.overvide_data ul li:last-child::before  {
+    display: block;
+}
+.overvide_data ul {
+    margin-top: 20px;
+}
+.overview_line  {
+    display: none;
+}
+    .overvide_data ul li {
+        padding-left: 0px;
+    }
+}
+/* Overview Section end */
+
+
+/* Challenges Before updapt section start  */
+.challenges_updapt_section {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.challenges_updapt_inner {
+    width: 100%;
+    z-index: 1;
+
+}
+
+.challenges_updapt_inner .fs-32 {
+    line-height: 1.4;
+    padding-bottom: min(max(1rem, 1.66667vw), 2rem);
+}
+.challenges_list {
+    padding-left: 0px;
+    margin: 0px;
+}
+.challenges_list li {
+    padding-bottom: min(max(1.25rem, 2.29167vw), 2.75rem);
+    list-style-type: none;
+    position: relative;
+    padding-left: min(max(1rem, 1.45833vw), 1.75rem);
+}
+
+.challenges_list li > * {
+    line-height: 1.4;
+}
+
+.challenges_list li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: min(max(0.625rem, 0.78125vw), 0.9375rem);
+    width: 0.41667vw;
+    height: 0.41667vw;
+    background: var(--theme-purple);
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+
+.challenges_updapt_inner img {
+    width: 100%;
+    margin-bottom: min(max(1.25rem, 2.5vw), 3rem);
+    border-radius: 0.83333vw;
+    -webkit-border-radius: 0.83333vw;
+    -moz-border-radius: 0.83333vw;
+    -ms-border-radius: 0.83333vw;
+    -o-border-radius: 0.83333vw;
+}
+
+
+.challenges_left_circle {
+    position: absolute;
+    opacity: 0.07;
+    background: var(--theme-green);
+    width: min(max(18.75rem, 51.19792vw), 61.4375rem);
+    height: min(max(18.75rem, 51.19792vw), 61.4375rem);
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    top: -40%;
+    left: -5%;
+    z-index: 0;
+    filter: blur(3.75vw);
+    -webkit-filter: blur(3.75vw);
+}
+
+.challenges_right_circle {
+    position: absolute;
+    opacity: 0.07;
+    background: var(--theme-green);
+    width: min(max(18.75rem, 51.19792vw), 61.4375rem);
+    height: min(max(18.75rem, 51.19792vw), 61.4375rem);
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    top: 10%;
+    right: -25%;
+    z-index: 0;
+    filter: blur(3.75vw);
+    -webkit-filter: blur(3.75vw);
+}
+
+.challenges_img_bg_middle {
+    position: absolute;
+    top: -7%;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    width: min(max(43.75rem, 78.125vw), 93.75rem);
+    z-index: 0;
+}
+
+.challenges_img_bg_middle img {
+    width: 100%;
+}
+@media only screen and (max-width: 1199px) {
+.challenges_list li::before {
+    width: 8px;
+    height: 8px;
+}
+.challenges_list li {
+    padding-left: 20px;
+ }
+}
+@media only screen and (max-width: 991px) {
+.challenges_updapt_section {
+    padding: 30px 0px 18px;
+}
+}
+/* Challenges Before updapt section end */
+
+/* Project Objectives Section Start  */
+.project_objective_section {
+    width: 100%;
+}
+
+.project_objective_row {
+    width: 100%;
+    margin-left: min(max(1.25rem, 1.5625vw), 1.875rem);
+}
+
+.project_objective_slider {
+    padding-bottom: min(max(1.25rem, 1.5625vw), 1.875rem);
+}
+.project_objective_slider .swiper-wrapper {
+    align-items: stretch;
+    height: 100%;
+}
+.project_objective_slider .swiper-slide {
+    height: auto;
+}
+.project_objective_row .project_objective_col {
+    border: 1px solid #D0D0D0;
+    background: #EEF2FD;
+    border-radius: 0.83333vw;
+    -webkit-border-radius: 0.83333vw;
+    -moz-border-radius: 0.83333vw;
+    -ms-border-radius: 0.83333vw;
+    -o-border-radius: 0.83333vw;
+    padding: 1.51042vw 0.52083vw 3.4375vw 2.13542vw;
+    height: 100%;
+}
+.project_objective_row .project_objective_col:hover {
+    background: var(--theme-purple);
+}
+.project_objective_row .project_objective_col .fs-52 {
+    color: rgba(106, 107, 116, 0.40);
+    line-height: 1.2;
+    letter-spacing: -1.986px;
+}
+.project_objective_row .project_objective_col:hover .fs-52 {
+    color: rgba(255, 255, 255, 0.70);
+}
+
+.project_objective_row .project_objective_col .fs-32 {
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -1.28px;
+}
+.project_objective_row .project_objective_col:hover .fs-32 {
+    color: #EEF2FD;
+}
+.project_objective_row .project_objective_col .cnt_wrap > * {
+    line-height: 1.4;
+}
+.project_objective_row .project_objective_col:hover .cnt_wrap > * {
+    color: rgba(255, 255, 255, 0.80);
+}
+.u-icon-inr {
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    right: 50%;
+    bottom: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+.u-icon-inr img {
+    width: 100%;
+}
+.project_objective_row .project_objective_col:hover .u-icon-inr {
+    display: block;
+}
+
+@media only screen and (max-width: 991px) {
+    .project_objective_row {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .project_objective_slider {
+    padding-bottom: 30px;
+}
+}
+@media only screen and (max-width: 767px) {
+.project_objective_section {
+    padding: 30px 0px;
+}
+.project_objective_row .project_objective_col {
+    padding: 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.project_objective_row .project_objective_col .fs-32 {
+    padding-top: 20px;
+}
+.project_objective_row .project_objective_col .cnt_wrap > * {
+    padding-top: 15px;
+}
+.project_objective_row .project_objective_col .fs-52 {
+    font-size: 34px;
+}
+}
+/* Project Objectives Section End  */
+
+/* How Updapt Solved the Challenge section start */
+.case_studies_product_section {
+    width: 100%;
+    background: #EAF0FF;
+}
+.case_studies_product_section .custom-container {
+    z-index: 1;
+    position: relative;
+}
+.case_studies_product_section  .right__top_bg_img {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: min(max(43.75rem, 76.35417vw), 91.625rem);
+    z-index: 0;
+}
+.case_studies_product_section  .right__top_bg_img img {
+    width: 100%;
+}
+.case_studies_product_section .solution_img {
+    max-width: 78%;
+}
+.case_studies_product_section .accordion-header.active-a {
+    padding-left: 0px;
+}
+.case_studies_product_section .accordion-header.active-a::before {
+    display: none;
+}
+
+.case_studies_product_section .accordion-header .fs-40 {
+    color: #E0E0E0;
+    line-height: 1.2;
+    letter-spacing: -1.589px;
+}
+
+.case_studies_product_section .accordion-header {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: min(max(0.625rem, 0.83333vw), 1rem);
+}
+
+.case_studies_product_section .accordion-item.is-active .fs-40 {
+    color: rgba(106, 107, 116, 0.50);
+}
+.case_studies_product_section .solution_img .image img {
+    width: 100%;
+}
+
+@media only screen and (max-width: 991px) {
+.case_studies_product_section .accordion-header .fs-40 {
+    font-size: 26px;
+}
+.case_studies_product_section .solution_img {
+    max-width: 65%;
+}
+}
+@media only screen and (max-width: 767px) {
+.case_studies_product_section .accordion-header .fs-40 {
+    font-size: 24px;
+}
+.case_studies_product_section .solution_img {
+    max-width: 100%;
+}
+.our_product_section.case_studies_product_section .solution_mobile_video {
+    margin-top: 20px;
+}
+}
+/* How Updapt Solved the Challenge section end */
